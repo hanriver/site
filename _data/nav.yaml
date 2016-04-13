@@ -1,0 +1,12 @@
+root:
+ - id: about
+   title: About
+   url:   /
+
+ - id: menu
+   title: Menu
+   url:   /menu.html
+
+ - id: contact
+   title: Contact
+   url:   /contact.html

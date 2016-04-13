@@ -1,0 +1,38 @@
+<header>
+    <div id="logo-and-menu">
+        <div>
+            <h1>The Han River Restaurant</h1>
+            <img id="logo-image" src="images/logo.png" alt="The Han River Restaurant">
+        </div>
+        <div id="left-menu">
+            <ul class="menu">
+                {% for item in site.data.nav.root %}
+                    <li {% if page.menu == item.id %}class="selected"{% endif %}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div id="header-extras">
+        <a href="tel://{{site.tel}}" id="phone" class="info-item">
+            <i class="material-icons">settings_cell</i>
+            <div>
+                {{site.tel}}
+            </div>
+        </a>
+        <a href="{{site.mapurl}}" id="location" class="info-item">
+            <i class="material-icons">location_on</i>
+            <div>
+                {% include address.html %}
+            </div>
+        </a>
+        <a href="{{site.baseurl}}/contact.html" id="hours" class="info-item">
+            <i class="material-icons">schedule</i>
+            <div>
+                {% include hours.html %}
+            </div>
+        </a>
+        <div id="social-links">
+            <a href="https://www.facebook.com/thehanriver/" id="social-links-facebook"><img src="images/social-icon-fb-color.png" alt="The Han River on Facebook"></a><a href="http://www.yelp.com/biz/the-han-river-restaurant-lynnwood" id="social-links-yelp"><img src="images/social-icon-yelp-color.png" alt="The Han River on Yelp"></a>
+        </div>
+    </div>
+</header>

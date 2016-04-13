@@ -1,0 +1,99 @@
+---
+---
+
+@import 'common.scss';
+
+h2 {
+    text-transform: lowercase;
+    font-weight: 200;
+}
+
+h1 {
+    
+}
+
+#restaurant-menu {
+    display:flex;
+    flex-direction: column;
+
+    .image-placeholder {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cat1 .image-placeholder {
+        background-image:url('../images/appz.jpg');
+    }
+    
+    .cat2 .image-placeholder {
+        background-image:url('../images/entree.jpg');
+    }
+    
+    .menu-category {
+        flex:1;
+        display:block;
+        text-decoration: none;
+        
+        & {
+            .image-placeholder {
+                opacity: 0.5;
+                
+                @media #{$media-small} {
+                    opacity:1;
+                }
+            }
+        }
+
+        &:hover {
+            .image-placeholder {
+                opacity: 1;
+            }
+            li {
+                color:black;
+            }
+            h2 {
+            }
+            li.more {
+                color:#f80;
+            }
+        }
+
+        
+        &:not(:first-child) {
+            // border-left:thin solid #white;
+            // margin-left:8px;
+            h2, li {
+                // padding-left:20px;
+            }
+        }
+
+        .image-placeholder {
+            height:100px;
+            background-color:#ddd;
+        }
+        
+        h2 {
+            padding:0;
+            margin:0;
+            color:#4c80ae;
+            height:1.2em;
+            margin-top:1em;
+        }
+        
+        ul {
+            list-style:none;
+            margin:0;
+            padding:0;
+            margin-top:15px;
+        }
+        
+        li {
+            padding:4px 0;
+            color:black;
+        }
+        
+        h2, li {
+            padding-right:40px;
+        }
+    }
+}

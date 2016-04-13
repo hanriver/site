@@ -1,0 +1,55 @@
+<h1><a href="{{site.baseurl}}/menu.html">Menu</a> <span class="rarr"></span> {{ include.title }}</h1>
+
+{% assign itemGroups = site.data.menu-items | group_by: "catid" %}
+
+{% for group in itemGroups %}
+    {% assign cat = site.data.menu-categories | where: "catid", group.name | first %}
+    {% if cat.parent == include.type %}
+        
+        {% assign prevInsertPriceHeader = false %}
+        
+        {% if cat.english != include.title %}
+        <h2>{{cat.english}}</h2>
+        {% endif %}
+        
+        <ul class="restaurant-menu">
+            {% for item in group.items %}
+                {% assign insertPriceHeader = (item.price_m != 0) %}
+                {% if insertPriceHeader %}
+                    {% unless prevInsertPriceHeader %}
+                    <li class="price head">
+                        <div>&nbsp;</div>
+                        <div>Small</div>
+                        <div>Medium</div>
+                        <div>Large</div>
+                    </li>
+                    {% endunless %}
+                {% endif %}
+                
+                {% assign prevInsertPriceHeader = insertPriceHeader %}
+                
+                <li>
+                    <div class="row">
+                        <span class="id">{{ item.id }}</span>
+                        <span class="title">{{ item.english }}</span>
+                        <span class="title-viet">{{ item.viet }}</span>
+                        <span class="spring"><hr /></span>
+                        <span class="price">${{ item.price_s | money }}</span>
+                        {% if item.price_m %}
+                            <span class="price price_m">${{ item.price_m | money }}</span>
+                        {% endif %}
+                        {% if item.price_l %}
+                            <span class="price price_l">${{ item.price_l | money }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="row title-viet">
+                        {{ item.viet }}
+                    </div>
+                    <div class="row description">
+                        {{ item.description }}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endfor %}

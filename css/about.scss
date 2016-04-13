@@ -1,0 +1,312 @@
+---
+---
+
+@import 'common';
+
+.big-quote {
+    &:before {
+        content: open-quote;
+        font-size:4em;
+        line-height:0em;
+        vertical-align:-0.4em;
+        font-family: sans-serif;
+    }
+    
+    &:after {
+        content: close-quote;
+        font-size:0;
+    }
+}
+
+.big-quote-end {
+    &:before {
+        content: open-quote;
+        font-size:0;
+        width:0;
+        margin:0;
+        display: block;
+    }
+    
+    &:after {
+        content: close-quote;
+        font-size:4em;
+        line-height:0em;
+        vertical-align:-0.6em;
+        font-family: sans-serif;
+    }
+}
+
+
+@keyframes show-quote {
+    from {
+        color: rgba(0, 0, 0, 0);
+    }
+    
+    to {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes show-content {
+    from {
+        opacity:0;
+    }
+    
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes animate-highlights {
+    from {
+    }
+    
+    to {
+    }
+}
+
+.intro-actions, .intro, .about-image {
+    font-size:1.25em;
+    padding:10px 10px;
+    padding-bottom:0;
+    width:70%;
+    
+    color: rgba(0, 0, 0, 0.5); 
+    
+    @media #{$media-small} {
+        width:100%;
+    }
+}
+
+.intro {
+    quotes: "\201C""\201D""\2018""\2019";
+
+    display:flex;
+    flex-direction: column;
+    
+    em {
+        font-style: inherit;
+        color:#000;
+        padding:5px;
+        background-color:transparent;
+        
+        animation-name: animate-highlights;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+        
+        @media #{$media-small} {
+            animation: none;
+        }
+    }
+    
+    & > div {
+        padding:0.5em;
+        margin-bottom:1em;
+        display:flex;
+
+        animation-name:show-quote;
+        animation-timing-function: ease-in-out;
+        animation-duration:1s;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+        
+        @media #{$media-small} {
+            animation: none;
+        }
+        
+        & > div.quote {
+            flex-grow:1;
+            width:60%;
+            align-self: center;
+        }
+        
+        & > div.white {
+            width:1%;
+            display:block;
+            flex-grow:1;
+            flex-shrink:1;
+            display:flex;
+            align-items: center;
+            margin-left:0px;
+            padding:5px;
+            justify-content: center;
+
+            animation-name:show-content;
+            animation-timing-function: ease-in-out;
+            animation-duration:1s;
+            animation-fill-mode: backwards;
+            animation-delay: 2s;
+            
+            @media #{$media-small} {
+                animation: none;
+            }
+        }
+        
+        img {
+            width:100%;
+        }
+    }
+    
+    .part-1 {
+        font-size:0.8em;
+        animation-delay:1s;
+        
+        img {
+            width:60%;
+        }
+    }
+    
+    .part-2 {
+        text-align:right;
+        font-size:0.9em;
+        animation-delay:1s;
+        img {
+            width: 70%;
+        }
+    }
+    
+    .part-3 {
+        animation-delay:1s;
+        font-size:1em;
+        
+        span.bigger {
+        }
+    }
+}
+
+.image {
+    img {
+    }
+}
+
+.intro-actions2 {
+    
+    a {
+        background-image:url('../images/sandwich.jpg');
+        background-size:cover;
+        height:200px;
+        padding:10px;
+        text-align: center;
+        color:white;
+        background-color:red;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    span {
+        background-color:rgba(0, 150, 255, 0.75);
+        padding:0.5em 1.5em; 
+            display:none;
+        
+        &:after {
+            margin-left:0.25em;
+            display:inline-block;
+            content: '\2192';
+            font-size:1em;
+            vertical-align: -0.075em;
+        }
+    }
+}
+
+.about-image {
+    height:200px;
+    padding:0;
+    margin-bottom:0.5em;
+    position:relative;
+    
+    .about-image-caption {
+        opacity:0;
+        transition:opacity 0.5s;
+    }
+    &:hover {
+        .about-image-caption {
+            opacity:1;
+        }
+    }
+}
+
+.about-image-image {
+    height:200px;
+    
+    background-image:url('../images/boat.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.about-image-caption {
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0.5);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    color:#fff;
+    font-size:14px;
+    font-style: italic;
+    
+    p {
+        position:absolute;
+        right:0;
+        bottom:0;
+        width:180px;
+        margin:0;
+        text-align:right;
+        padding:10px;
+    }
+}
+
+.intro-actions, .about-image {
+    animation-name:show-content;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-duration:1s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;   
+    
+    @media #{$media-small} {
+        animation: none;
+    }
+ 
+}
+
+.intro-actions {
+    padding-top:0;
+    padding-bottom:0;
+    display:flex;
+    
+    a {
+        font-weight:300;
+        flex-grow:0;
+        padding:10px 20px;
+        flex-shrink:0;
+        text-align:center;
+        
+        margin:10px;
+        background-color:$primary-color;
+        color:white;
+        
+        span {
+            display:inline-block;
+        }
+        
+        &.to-menu:after {
+            display:inline-block;
+            content: '\2192';
+            font-size:1em;
+            margin-left:0.25em;
+        }
+        
+        i {
+            margin-left:0.25em;
+            vertical-align: middle;
+        }
+        
+        &:hover {
+            background-color:$primary-color-bitlight;
+        }
+    }
+}

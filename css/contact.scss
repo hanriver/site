@@ -1,0 +1,19 @@
+---
+---
+
+@import 'common';
+
+.contact-sheet {
+    display:flex;
+    flex-direction: column;
+    
+    & > div {
+        display:flex;
+        margin-bottom:1.5em;
+        
+        & > i {
+            color:$primary-color;
+            margin-right:0.5em;
+        }
+    }   
+}

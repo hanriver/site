@@ -1,0 +1,82 @@
+catid,id,english,viet,price_s,price_m,price_l,description
+A,A1,Egg Rolls (4 rolls),Chả Giò ,4.49,,,"Ground turkey, vermicelli bean noodles, shredded vegetables, and eggs wrapped in crispy rolls, served with our signature Han River fish sauce. "
+A,A2,Spring Rolls (2 rolls),Gỏi Cuốn,3.99,,,"Prawns, pork, vermicelli noodles, and vegetables wrapped in rice paper, served with home-made peanut sauce."
+A,A3,Salmon Rolls (2 rolls),Gỏi Cuốn Cá,5.49,,,"Grilled salmon, vermicelli noodles, and vegetables wrapped in rice paper, served with home-made peanut sauce. "
+A,A4,Vegetarian Rolls (2 rolls),Gỏi Cuốn Chay,3.99,,,"Sautéed fried tofu with mushrooms, carrots, and vermicelli bean noodles, wrapped in rice paper, served with home-made peanut sauce.   "
+A,A5,The Han River Special Rolls (2 rolls),GỎi Cuốn Đặc Biệt,5.49,,,"Fusion of Vietnamese Eggs Rolls and Spring Rolls, served with home-made peanut sauce,"
+A,A6,Crispy Chicken Wings (5pcs),Cánh Gà Chiên,5.99,,,Fried chicken wings basted with sweet garlic sauce. 
+A,A7,Vietnamese Pot Stickers (6pcs),Hoành Thánh Chiên,4.99,,,Home-made fried dumplings served with sweet chili sauce.
+A,A8,Vietnamese Steamed Buns (2pcs),Bánh Bao,3.99,,,Homemade steamed buns with BBQ pork and chicken filling.
+A,A9,Vietnamese Sliders (2pcs),,3.99,,,"Grilled pork topped with mayonnaise, sriracha, fried shallots, cilantro, cucumber, pickled carrots and daikon, served with a toasted roll."
+A,A10,Huế Style Clear Shrimp and Pork Dumpling,Bánh Bột Lọc ,3.99,,,"Steamed translucent dumplings filled with sautéed shrimps and pork, wrapped in banana leaves, served with our signature Han River fish sauce."
+D,D1,The Han River Sizzling Crepe,Bánh Xèo Sông Hàn,8.49,,,"Central Vietnam style crepe with shrimps, pork slices, bean sprouts served with a side of traditional Vietnamese herbs, lettuce and our signature Han River fish sauce. "
+D,D2,Vegetarian Sizzling Crepe ,Bánh Xèo Chay ,8.49,,,"Central Vietnam style crepe with sautéed tofu, shiitake mushroom, carrots, and bean sprouts served with a side of traditional Vietnamese herbs, lettuce and our signature Han River soy sauce. "
+D,D3,Charbroiled Pork Meatball Vermicelli Bowl ,Bún Nem Lụi ,8.49,,,"Skewered charbroiled pork meatball served with vermicelli noodles, fresh leaf lettuce, cucumber, bean sprouts, roasted peanuts, fried shallots, pickled carrot, daikon and our home-made peanut sauce. "
+D,D5,Seared Salmon Congee ,Cháo Cá Hồi ,8.49,,,"Vietnamese turmeric rice porridge with seared salmon, served with fried scallions and onions. "
+D,D6,Vietnamese Braised Fish Conge ,Cháo Cá Kho Mặn ,7.49,,,"Vietnamese turmeric rice porridge with caramelized silver fish, served with fried scallions and onions. "
+D,D7,Minced Beef Congee ,Cháo Thịt Bò Bằm ,7.49,,,"Vietnamese turmeric rice porridge with sautéed minced beef, served with fried scallions and onions. "
+D,D8,Coconut Curry Chicken ,Cà Ri Gà,8.49,,,"Chicken, potatoes and carrots simmered in a rich and smooth traditional coconut curry sauce, served with your choice of brown rice or white rice or baguette. "
+D,D9,Vegetarian Coconut Curry,Cà Ri Chay ,8.49,,,"Tofu, shiitake mushroom, potatoes and carrots simmered in a rich and smooth traditional coconut curry sauce, served with your choice of brown rice or white rice or baguette. "
+S,S1,Grilled Chicken,Bánh Mì Gà Nướng,4.99,,,
+S,S2,Grilled Pork ,Bánh Mì Heo Nướng,4.99,,,
+S,S3,Grilled Beef ,Bánh Mì Bò Nướng,4.99,,,
+S,S4,Sautéed Tofu,Bánh Mì Tofu,4.99,,,
+C,C1,The Han River Special Rice,Cơm Đặc Biệt,9.99,,,"Steamed rice with grilled lemongrass pork chop, skewered grilled prawns and fried egg, served with stir-fried seasonal vegetables."
+C,C2,Grilled Chicken,Cơm Gà Nướng,8.50,,,Steamed rice with grilled marinated chicken served with stir-fried seasonal vegetables.
+C,C3,Lemongrass Chicken,Cơm Gà Xào Xả ,8.50,,,Steamed rice with sautéed lemongrass chicken served with stir-fried seasonal vegetables 
+C,C4,Lemongrass Beef,Cơm Bò Xào Xả,8.50,,,Steamed rice with sautéed lemongrass beef served with stir-fried seasonal vegetables
+C,C5,Lemongrass Tofu,Cơm Tàu Hũ Xào Xả,8.50,,,Steamed rice with sautéed lemongrass tofu served with stir-fried seasonal vegetables
+C,C6,The Han River Fried Rice,Cơm Chiên Đặc Biệt,9.99,,,"Fried rice with BBQ pork, prawns, eggs and mixed vegetables."
+C,C7,Grilled Salmon,Cơm Cá Salmon Nướng,10.99,,,Steamed rice with grilled salmon served with stir-fried seasonal vegetables
+C,C8,Grilled Beef Short Ribs,Cơm Sườn Bò Nướng,9.50,,,"Steamed rice with grilled lemongrass beef ribs, served with stir-fried seasonal vegetables."
+C,C9,Grilled Tofu,Cơm Tàu Hủ Nướng,8.50,,,Steamed rice with grilled marinated tofu served with stir-fried seasonal vegetables.
+M,M1,Chicken Egg Noodle Soup,Mì Gà ,5.99,6.99,8.49,
+M,M2,Meatball Egg Noodle Soup,Mì Bò Viên,5.99,6.99,8.49,
+M,M3,Rare Steak Egg Noodle Soup,Mì Tái ,5.99,6.99,8.49,
+M,M4,Prawn Egg Noodle Soup,Mì Tôm,6.49,7.49,8.99,
+M,M5,Vegetarian Egg Noodle Soup,Mì Chay ,5.99,6.99,8.49,
+M,M6,Rare Steak & Meatball Egg Noodle Soup,,5.99,6.99,8.49,
+M,M7,BBQ Pork Egg Noodle Soup,Mì Xá Xíu ,6.49,7.49,8.99,
+M,M8,Dumpling Egg Noodle Soup,Mì Hoành Thánh ,6.49,7.49,8.99,
+M,M9,Seafood Egg Noodle Soup,Mì Hải Sản,6.49,7.49,8.99,
+B,B1,Egg Rolls Vermicelli Bowl,Bún Chả Giò ,7.49,,,
+B,B2,Sautéed Lemongrass Tofu,Bún Chay,7.49,,,
+B,B3,Grilled Chicken Skewers,Bún Gà Lụi,7.99,,,
+B,B4,Sautéed Lemongrass Chicken,Bún Gà Xào Xả,7.99,,,
+B,B5,Grilled Beef Skewers  ,Bún Bò Lụi ,7.99,,,
+B,B6,Sautéed Lemongrass Beef ,Bún Thịt Bò Xào,7.99,,,
+B,B7,Grilled Prawn Skewers,Bún Tôm Nướng,8.49,,,
+B,B8,Grilled Pork Skewers,Bún Thịt Heo Lụi,7.99,,,
+B,B9,The Han River Special Vermicelli Bowl,Bún Đặc Biệt,9.49,,,"Deep fried egg rolls, grilled prawn and pork"
+P,P1,Chicken Pho,Phở Gà,5.99,6.99,8.49,
+P,P2,Prawn Pho,Phở Tôm,6.49,7.49,8.99,
+P,P3,Rare Steak Pho,Phở Tái ,5.99,6.99,8.49,
+P,P4,Rare Steak and Flank Pho,Phở Tái Nạm,5.99,6.99,8.49,
+P,P5,Rare Steak and Tendon Pho,Phở Tái Gân,5.99,6.99,8.49,
+P,P6,Rare Steak and Well Done Brisket Pho,Phở Tái Gầu,5.99,6.99,8.49,
+P,P7,Rare Steak and Meatball Pho,Phở Tái Bò Viên,5.99,6.99,8.49,
+P,P8,Well done Brisket Pho,Phở Gầu,5.99,6.99,8.49,
+P,P9,Meatball Pho,Phở Bò Viên,5.99,6.99,8.49,
+P,P10,Tofu Pho,Phở Chay ,5.99,6.99,8.49,
+P,P11,Combination Pho,Phở Đặc Biệt,6.49,7.49,8.99,
+P,P12,Seafood Pho,Phở Hải Sản,6.49,7.49,8.99,
+F,F1,Chicken Pan Fried Egg Noodles ,Mì Xào Gà,7.99,,,
+F,F2,Pork Pan Fried Egg Noodles,Mì Xào Heo,7.99,,,
+F,F3,Beef Pan Fried Egg Noodles ,Mì Xào Bò,7.99,,,
+F,F4,Tofu Pan Fried Egg Noodles,Mì Xào Tofu,7.99,,,
+F,F5,Seafood Pan Fried Egg Noodles,Mì Xào Hải Sản,8.99,,,
+O,,Cassava Cake,Bánh Khoai Mì Nướng ,4.49,,,Baked Cassava roots topped with warm coconut milk and roasted sesame seeds.
+O,,Fried Bananas ,Bánh Chuối Chiên,4.49,,,"Deep fried bananas topped with warm coconut milk and sprinkled peanuts.
+Add Vanilla Ice Cream (+ $1.49)"
+G,,Soda,Nước Ngọt,1.75,,," Coke, Diet Coke, Root Beer, Sprite, Dr. Pepper and Mountain Dew "
+G,,Vietnamese Loose Leaf Teas ,Trà Nóng,1.75,,,"Jasmine, green, black or white tea"
+G,,Vietnamese Iced Coffee,Cà Phê Sữa Đá,2.99,,,Slow drip Vietnamese coffee with condensed milk 
+G,,Thai Iced Tea,,2.49,,,
+G,,Mango Smoothies,,3.49,,,
+G,,Strawberry Smoothies,,3.49,,,
+G,,Avocado Smoothies –Seasonal,,3.49,,,
+G,,Fresh Coconut Juice,,2.99,,,
+G,,Fresh Lemonade,,2.99,,,
+G,,Strawberry Lemonade,,3.49,,,
+G,,Iced Tea,,1.99,,,
+G,,Bubble Tea,,3.49,,,

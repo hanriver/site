@@ -1,0 +1,11 @@
+catid,english,viet,description,parent
+A,Appetizers,Khai  Vị,,Appetizers
+D,Specialities,,,Entrees
+S,Vietnamese Sandwiches,Bánh Mì ,"All sandwiches come with a toasted baguette, mayonnaise, cucumber, cilantro, pickled carrot, daikon, and jalapeno, served with a cup of home-made soup.",Entrees
+C,Rice Dishes,Cơm Dĩa,All rice dishes are served with a cup of home-made soup. Choice of either White or Brown rice.,Entrees
+M,Egg Noodle Soup,Mì,All egg noodle soups are served with bokchoy and fried shallots.,Entrees
+B,Rice Noodle Creations,Bún,"All rice noodles creation are served with vermicelli noodles, fresh leaf lettuce, cucumber, bean sprouts, roasted peanuts, fried shallots, pickled carrot, daikon and our signature Han River fish sauce.",Entrees
+P,Noodle Soup ,Phở ,"All noodle soups are served with fresh bean sprouts, basil, lime and jalapeno.",Entrees
+F,Pan Fried Egg Noodles,Mì Xào,"All stir-fried egg noodles are served with bokchoy, onions and a cup of home-made soup.",Entrees
+O,Desserts,Tráng Miệng,,Desserts + Drinks
+G,Beverages,Giải Khát,,Desserts + Drinks
