@@ -220,12 +220,14 @@
         opacity:0;
         transition:opacity 0.5s;
     }
-    &:hover {
+    &:hover, &:active {
         .about-image-caption {
             opacity:1;
         }
     }
 }
+
+
 
 .about-image-image {
     height:200px;
