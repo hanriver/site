@@ -385,3 +385,22 @@ span.rarr {
     margin:0 0.25em;
     display:inline-block;
 }
+
+
+.notice {
+    background-color:#fff;
+    color:#d10;
+    padding:10px;
+    border:1px solid #d10;
+    margin-bottom:10px;
+    width:70%;
+    font-size:1.15em;
+    box-sizing: border-box;
+    
+    @media #{$media-small} {
+        width:100%;
+    }
+    
+    strong {
+    }
+}
