@@ -1,16 +1,16 @@
 root:
- - id: about
-   title: About
-   url:   /
+  - id: about
+    title: About
+    url: /
 
- - id: menu
-   title: Menu
-   url:   /menu.html
-   
+  - id: menu
+    title: Menu
+    url: /menu.html
+
   - id: orderonline
-   title: Order Online
-   url:   https://www.mealjunction.com/lynnwood/the-han-river-12918-mukilteo-speedway-c20-98037/149FAE 
+    title: Order Online
+    url: https://www.mealjunction.com/lynnwood/the-han-river-12918-mukilteo-speedway-c20-98037/149FAE
 
- - id: contact
-   title: Contact
-   url:   /contact.html
+  - id: contact
+    title: Contact
+    url: /contact.html
